@@ -1,0 +1,48 @@
+.adsSectionContainer{
+    padding: 2rem 0;
+    margin: 3rem 0;
+}
+.adsSectionContainer div:first-child h1,
+.adsSectionContainer div:first-child p{
+    text-align: center;
+}
+.adsSectionContainer div:first-child h1{
+    font-weight: 700;
+    color: var(--text-black);
+}
+.adsSectionContainer div:first-child p{
+    font-weight: 600;
+}
+.estatePropertyContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    place-items: center;
+    margin: 2.5rem auto;
+    gap: 2rem;
+    @media (max-width: 768px){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 480px){
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.estatePropertyContainer .estatePropertyCard{
+    background: #9E9E9E1F;
+    height: 100px;
+    width: 33%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 768px){
+        width: 45%;
+    }
+    @media (max-width: 480px){
+        width: 100%;
+    }
+}
+.estatePropertyContainer .estatePropertyCard p{
+    font-weight: 600;
+}

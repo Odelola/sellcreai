@@ -1,0 +1,33 @@
+.heroContainer{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    @media (max-width: 768px){
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+} 
+/* .heroContainer .HeroBannerBackground{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+} */
+.heroContainer aside{
+    flex-basis: 45%;
+}
+.heroContainer aside div h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.heroContainer aside p{
+    margin: .8rem 0;
+}
+.heroContainer_buttonsContainer{
+    display: flex;
+    column-gap: .5rem;
+    align-items: center;
+}

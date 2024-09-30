@@ -1,0 +1,27 @@
+.navConatiner{
+    width: 100%;
+    background: var(--text-white);
+}
+.navContainerInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.navRight{
+    display: flex;
+    align-items: center;
+    column-gap: .8rem;
+}
+.navRightLinks{
+    display: flex;
+    column-gap: 1.5rem;
+}
+.navRightLinks_iconlink{
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+.navContainerButton{
+    margin-left: 1rem;
+}
